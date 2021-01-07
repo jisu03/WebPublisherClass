@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./images/favicon/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <script type="text/javascript">
+     $(document).ready(function(){
+         $("nav").hide();
+         $('header p').click(function(){
+             $('header nav').slideToggle(400);
+         })
+     })
+    </script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <h2 class="hidden">헤더영역</h2>
+            <ul>
+                <li><a href="#">info_icon_01</a></li>
+                <li><a href="#">info_icon_02</a></li>
+                <li><a href="#">info_icon_03</a></li>
+                <li><a href="#">info_icon_04</a></li>
+            </ul>
+            <hr>
+            <div id="logoArea">
+                <h1>flat<br/>design</h1>
+                <p>toggle button</p>
+            </div>
+            <nav>
+                <h3 class="hidden">GNB영역</h3>
+                <ul>
+                    <li><a href="#">홈</a></li>
+                    <li><a href="#">플랫 디자인이란?</a></li>
+                    <li><a href="#">갤러리</a></li>
+                    <li><a href="#">문의사항</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h2 class="hidden">섹션영역</h2>
+                <div>
+                    슬라이드 배너
+                    <p></p>
+                    <p></p>
+                </div>
+                <div>
+                    <h3>최근 글</h3>
+                    <ul>
+                        <li><a href="#">안녕하세요 홈페이지가 오픈할 예정입니다.</a></li>
+                        <li><a href="#">홈페이지 리뉴얼 예정입니다.</a></li>
+                        <li><a href="#">flat design은 양질의 정보를 제공하려고 합니다.</a></li>
+                        <li><a href="#">blog에서 다양한 정보를 보실 수 있습니다.</a></li>
+                        <li><a href="#">저는 누구일까요?</a></li>
+                    </ul>
+               </div>
+               <div>
+                    <h3>인기 글</h3>
+
+                    <ul>
+                        <li><a href="#">안녕하세요 홈페이지가 오픈할 예정입니다.</a></li>
+                        <li><a href="#">홈페이지 리뉴얼 예정입니다.</a></li>
+                        <li><a href="#">flat design은 양질의 정보를 제공하려고 합니다.</a></li>
+                        <li><a href="#">blog에서 다양한 정보를 보실 수 있습니다.</a></li>
+                        <li><a href="#">저는 누구일까요?</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <dl>
+                        <dt>디자인 트렌드 플랫</dt>
+                        <dd>디자인 트렌드 플랫</dd>
+                        <dt>원색이 포인트 플랫</dt>
+                        <dd>원색이 포인트 플랫</dd>
+                    </dl>
+                </div>
+                <div>
+                    <h3>인기검색어</h3>
+                    <ul>
+                        <li><a href="#">반응형 웹</a></li>
+                        <li><a href="#">미디어 쿼리</a></li>
+                        <li><a href="#">뷰포트</a></li>
+                        <li><a href="#">CSS 트릭스</a></li>
+                        <li><a href="#">W3C</a></li>
+                        <li><a href="#">루크w</a></li>
+                        <li><a href="#">css 젠 가든</a></li>
+                        <li><a href="#">클리어 보스</a></li>
+                        <li><a href="#">XE</a></li>
+                        <li><a href="#">워드프레스</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>w3c</h3>
+                    <div>
+                        <ul>
+                            <li>js</li>
+                            <li>html</li>
+                            <li>css</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">트위터</a></li>
+                        <li><a href="#">페이스북</a></li>
+                        <li><a href="#">구글</a></li>
+                    </ul>
+                </div>
+        </section>
+        <footer>
+            <h2 class="hidden">푸터영역</h2>
+            <p>copyright&copy; 2019. flat design blog<br/> all rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

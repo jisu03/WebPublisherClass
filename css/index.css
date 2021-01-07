@@ -1,0 +1,305 @@
+@charset "utf-8";
+
+*{margin:0; padding:0;}
+body{color:#fff; background: url(../images/background.png); }
+hr,img{border:none;}
+.hidden{display:none;}
+ul,li{list-style: none;}
+a{text-decoration: none; color:#fff;
+  display: block; width:100%; height:100%;}
+
+/*전체영역*/
+div#wrap{
+    width: 80%; /*320/384*/
+    margin:0 auto;
+    /*border: 1px solid red;*/
+}
+
+/*헤더영역*/
+header{background: #2ecc71;}
+header>ul{
+    width:100%;
+    height:51px;
+}
+
+header>ul>li{
+    width:25%;
+    height:100%;
+    float:left;
+/*    background-repeat:no-repeat;
+    background-position: center;*/
+    text-indent: -9999px;
+}
+
+header>ul>li:nth-child(1){
+    background: url(../images/index01.png) no-repeat center;
+}
+header>ul>li:nth-child(2){
+    background: url(../images/index02.png) no-repeat center;
+}
+header>ul>li:nth-child(3){
+    background: url(../images/index03.png) no-repeat center;
+}
+header>ul>li:nth-child(4){
+    background: url(../images/index04.png) no-repeat center;
+}
+
+header hr{
+    height:1px;
+    background: #39d67c;
+}
+
+header>div{
+    width: 100%;
+    height:98px;
+    position:relative;    
+}
+
+header>div>h1{
+    width: 70px; height: 40px;
+    text-transform:uppercase;
+    font-size: 14px;
+    text-align: center;
+    margin:0 auto;
+    position:relative;
+    top: 30px;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
+}
+
+#logoArea>p{
+   width: 30px; height:30px;
+    background:url(../images/index20.png);
+    text-indent: -9999px;
+    position:absolute;
+    top: 10px; right: 3.125%;
+}
+
+header>nav{
+    width: 100%;
+    height: 216px;
+    background: #2c3e50;
+}
+
+header>nav li{
+    width:100%;
+    line-height: 54px; /*216 나누기 4*/
+    text-indent: 6.25%;
+    background: url(../images/index05.png) no-repeat 93.75% center;
+}
+
+/*섹션영역*/
+section >div:nth-child(2){
+    width: 100%;
+    height: 300px;
+    background: #8271fe;
+    text-indent: -9999px;
+    background-image: url(../images/index06.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position:relative;
+}
+
+section > div:nth-child(2)> p:nth-child(1){
+    width: 35px;
+    height: 40px;
+    background: url(../images/index17.png) no-repeat;
+    position:absolute;
+    top: calc(50% - 20px);
+    left: -10px;
+
+}
+
+section > div:nth-child(2)> p:nth-child(2){
+    width: 35px;
+    height: 40px;
+    background: url(../images/index18.png) no-repeat;
+    position:absolute;
+    top: calc(50% - 20px);
+    right: -10px;
+}
+
+
+section >div:nth-child(3){
+    width: 100%;
+    height: 263px;
+    background: #ffc40f;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+section >div:nth-child(4){
+    width: 100%;
+    height: 263px;
+    background: #a660c2;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+section>div:nth-child(3) h3, section>div:nth-child(4) h3, section>div:nth-child(6) h3{
+    padding-top: 40px; margin-bottom: 24px;
+    text-align: center;
+}
+
+section>div:nth-child(3) ul, section>div:nth-child(4) ul{
+    width: 68.75%;
+    height: 140px;
+    margin:0 auto;
+}
+
+section>div:nth-child(3) li, section>div:nth-child(4) li{
+    font-size: 16px;
+    background: url(../images/circle_icon.png) no-repeat left center;
+    height: 20%; /*5개니까!*/
+    line-height: 28px; /*140 나누기 5*/
+    text-indent: 10px;
+}
+
+section>div:nth-child(3) li a,
+section>div:nth-child(4) li a{
+    width: 80%;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+
+section > div:nth-child(5){
+    width: 100%;
+    height: 506px;
+    background: #e65d5d;
+}
+
+section > div:nth-child(5) dl{
+    width: 75%;
+    margin:0 auto;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+section > div:nth-child(5) dl dt{
+    width:100%;
+    height: 150px;
+    border-radius: 5px;
+    text-indent: -9999px;
+    box-shadow:1px 1px 1px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+section >div:nth-child(5) dl dt:nth-child(1){
+    background: #fedc71 url(../images/index08.png) no-repeat center;
+    /*background-size: 25%; /*240 나누기 60*/
+}
+
+section >div:nth-child(5) dl dt:nth-child(3){
+    background: #aae0f8 url(../images/index09.png) no-repeat center;
+    /*background-size: 25%; /*240 나누기 60*/
+}
+
+section > div:nth-child(5) dl dd{
+    width: 100%;
+    height: 68px;
+    line-height: 68px;
+}
+
+
+section > div:nth-child(6){
+    width: 100%;
+    height: 357px;
+    background: #219af7;
+}
+
+section >div:nth-child(6) ul{
+    width: 75%;
+    height: 230px;
+    margin: 0 auto;
+}
+
+section >div:nth-child(6) ul li{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 46.67%;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    float:left;
+    margin-bottom: 15px;
+    text-transform: uppercase;    
+}
+
+section >div:nth-child(6) ul li:nth-child(2n){
+    float:right;
+}
+
+
+section > div:nth-child(7)> h3{
+    width: 100%;
+    height: 107px;
+    text-indent: -9999px;
+    background: #e6567a url(../images/index16.png) no-repeat center;
+}
+
+section > div:nth-child(7) > div{
+    width: 100%;
+    height: 120px;
+    background: #c44968;
+}
+
+
+section > div:nth-child(7) > div li{
+    width: 33.33%;
+    height: 120px;
+    float:left;
+    text-indent: -9999px;
+}
+
+section > div:nth-child(7) > div ul li:nth-child(1){
+    background: url(../images/index10.png) no-repeat center center;
+}
+
+section > div:nth-child(7) > div ul li:nth-child(2){
+    background: url(../images/index11.png) no-repeat center center;
+}
+
+section > div:nth-child(7) > div ul li:nth-child(3){
+    background: url(../images/index12.png) no-repeat center center;
+}
+
+section > div:nth-child(8){
+    width: 100%;
+    height: 104px;
+    background: white;
+}
+
+section > div:nth-child(8) li{
+    width: 33.33%;
+    height:104px;
+    float:left;
+    text-indent: -9999px;
+}
+
+section > div:nth-child(8) li:nth-child(1){
+    background: url(../images/index13.png) no-repeat center;
+}
+
+section > div:nth-child(8) li:nth-child(2){
+    background: url(../images/index14.png) no-repeat center;
+}
+
+section > div:nth-child(8) li:nth-child(3){
+    background: url(../images/index15.png) no-repeat center;
+}
+
+footer{
+    width: 100%;
+    height: 68px;
+    background: #474747;
+    text-transform: uppercase;
+}
+
+footer > p{
+    width: 65.63%;
+    text-align: center;
+    margin:0 auto;
+    position: relative;
+    top: 20px;
+    font-size: 10px;
+}
